@@ -1,0 +1,237 @@
+.MoviePage {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.AvgScore {
+    text-align: center;
+    background-color: orange;
+    margin: auto;
+    width: 60%;
+    padding: auto;
+    border-radius: 25px;
+}
+
+.InfoFooter {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 1690px) {
+    .InfoFooter{
+        flex-direction: row;
+    } 
+}
+
+.MovieDetail {
+    border: 2px solid black;
+    width: 100%;
+    margin: 5px;
+    background-color: #ffa500;
+    border-radius: 25px;
+}
+
+.MovieInformation {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.MovieDetailContent {
+    width: 100%; 
+    text-align: center;
+    margin: 8px;
+}
+
+.Movie {
+    border: 2px solid black;
+    margin-bottom: 5px;
+    width: 90%;
+    text-align: center;
+    border-radius: 25px;
+    
+}
+
+.ThumbnailContainer {
+    width: 230px;
+    height: 290px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.thumbnail-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 25px;
+}
+
+.Description {
+    line-break: strict;
+    text-align: left;
+    width: 95%;
+    align-items: flex-end; 
+    padding: 10px;
+}
+
+.Review {
+    border: 2px solid black;
+    width: 100%;
+    margin: 5px;
+    background-color: orange;
+    border-radius: 25px;
+    
+}
+
+.ReviewsHeader {
+    text-align: center;
+    background-color: #ffa500;
+    height: auto;
+}
+
+.ReviewsTitle {
+    text-align: center;
+    width: 100%;
+    
+}
+
+.MovieRating{
+    text-align: center;
+    width: 100%;
+    
+}
+
+.AddReview {
+    border: 2px solid black;
+    width: 100%;
+    margin: 5px;
+    background-color: orange;
+    border-radius: 25px;
+}
+
+.AddReviewsHeader {
+    text-align: center;
+    background-color: orange;
+    height: auto;
+}
+
+.buttonStyle {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .buttonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+  }
+
+  .ReviewsContent{
+    text-align: left;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: white;
+    border-radius: 25px;
+  }
+
+  .ReviewsRating{
+    display: flex;
+    padding: 5px;
+  }
+
+  .stars{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+
+  .rating-button {
+    background-color: #ccc; 
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.rating-button.active {
+    background-color: #888;
+}
+
+.rating-button:hover {
+    background: #3a3a39;
+    cursor: pointer;
+    }
+
+.AddReviewRating{
+    text-align: center;
+}
+
+.AddReviewContent{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.AddFavoriteButton{
+    background-color: #ccc; 
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.AddFavoriteButton:hover{
+    background: #3a3a39;
+    cursor: pointer;
+    
+}
+.Description h6{
+    font-size:15px ;
+}
+
+.AddRemoveFavoritesConteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SubmitReviewButton{
+    background-color: #ccc; 
+    padding: 5px 10px;
+    margin: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.SubmitReviewButton:hover{
+    background: #3a3a39;
+    cursor: pointer;
+}
+
+.sortingContainer{
+    background-color: #ccc; 
+    margin: 5px;
+}
+
+.sortingContainer:hover{
+    cursor: pointer;
+}
+
+.ReviewContent{
+    border: 2px solid black;
+    border-radius: 10px;
+}

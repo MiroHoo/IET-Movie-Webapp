@@ -1,0 +1,97 @@
+.LoginP{
+    width:100%;
+    text-align: center;
+    font-weight: bold;
+}
+.inputcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.Username, .Password, .newPass{
+    margin-top: 20px; 
+    height: 40px;
+    display: block;
+    width: 80%;
+    text-align: center;
+}
+.ButtonContainer{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+}
+.Align{
+  width: 100%;
+}
+#LoginButton{
+    cursor: pointer; 
+    margin-right: 50px;
+    background-color: orange;
+    width:100px;
+    height:40px;
+}
+#LoginReset{
+    margin-left: 40px;
+    cursor: pointer; 
+    border: 1px solid #3498db; 
+    background-color: transparent; 
+    border: none;
+    background: none;
+}
+.alert{
+    width:100%; 
+    color: red; 
+    font-weight: bold;
+    text-align: center;
+    height:30px; 
+    margin-top: 20px; 
+    background-color: rgba(242, 34, 34, 0.6);
+}
+.Register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: orange;
+    width:100px;
+    height:40px;
+}
+.LoginQuery{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.LoginButtonYes, .LoginButtonNo{
+    background-color: orange;
+    height: 40px;
+    width: 80px;
+    font-size: 15px;
+}
+.LoginButtonYes{
+    margin-right:20px;
+}
+.LoginButtonNo{
+    margin-left: 20px;
+}
+.RegisterContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex:100%;
+    margin-top: 20px;
+}
+.registerheader{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.notification{
+    font-size: 15px;
+}
+.infopng{ 
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 17px;
+    height: 17px;
+}
